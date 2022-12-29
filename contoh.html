@@ -8,22 +8,12 @@
     <link rel ="stylesheet"href="stylesheet.css">
 </head>
 <body>
-    <!-- Start filter button -->
-    <div class="categories-filter">
-      <ul>
-        <li>All</li>
-        <li>Food</li>
-        <li>Beverage</li>
-      </ul>
-    </div>
-    <!-- End filter button -->
-
     <div class="container">
         <div class="menu">
-          <!-- <h2 class="menu-group-heading">
-           Food
-          </h2> -->
-          <!-- <div class="menu-group">
+          <h2 class="menu-group-heading">
+           Makanan
+          </h2>
+          <div class="menu-group">
             <div class="menu-item">
               <img class="menu-item-image" 
               src="https://t-2.tstatic.net/medan/foto/bank/images/Resep-Sate-Ayam-Madura-Menu-Lezat-Khas-Indonesia-yang-Mendunia.jpg" 
@@ -33,32 +23,42 @@
                   <span class="menu-item-name">Sate</span>
                   <span class="menu-item-price">Rp.20.000</span>
                 </h3>
-                <div class="menu-item-description">
+                <p class="menu-item-description">
                  Terdiri dari 10 tusuk sate ayam dan lontong
+                </p>
+                <div class ="button-jumlah">
+                  <button class= "btn btn-primary" id= "tambah"> Tambah </button>
+                  <button class= "btn btn-success" id= "kurang"> Kurangi </button>
+                  <div class="output-jumlah">
+                    Jumlah : <span class= "bg-success text-white font-weight-bold p-2" id= "hasil"> 0</span>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-
-          <div class="menu-group">
             <div class="menu-item">
               <img class="menu-item-image"
                src="https://storage.googleapis.com/dapurumami-test/recipe/Soto%20Ayam%20Madiun%20ala%20Masako%C2%AE-zgmNvz1655276924.jpg"
                 alt="Soto">
               <div class="menu-item-text">
                 <h3 class="menu-item-heading">
-                  <div class="menu-item-name">Soto</div>
-                  <div class="menu-item-price">Rp. 25.000</div>
+                  <span class="menu-item-name">Soto</span>
+                  <span class="menu-item-price">Rp. 25.000</span>
                 </h3>
                 <p class="menu-item-description">
                   Terdiri dari soto ayam dan nasi
                 </p>
+                <div class ="button-jumlah">
+                  <button class= "btn btn-primary" id= "plus"> Tambah </button>
+                  <button class= "btn btn-success" id= "min"> Kurangi </button>
+                  <div class="output-jumlah">
+                    Jumlah : <span class= "bg-success text-white font-weight-bold p-2" id= "total"> 0</span>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-
           <h2 class="menu-group-heading">
-            Beverage 
+            Minuman 
           </h2>
           <div class="menu-group">
             <div class="menu-item">
@@ -71,27 +71,39 @@
                 <p class="menu-item-description">
                  cocok buat kamu yang tidak terlalu suka manis
                 </p>
+                <div class ="button-jumlah">
+                  <button class= "btn btn-primary" id= "tambah"> Tambah </button>
+                  <button class= "btn btn-success" id= "kurang"> Kurangi </button>
+                  <div class="output-jumlah">
+                    Jumlah : <span class= "bg-success text-white font-weight-bold p-2" id= "hasil"> 0</span>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-
-          <div class="menu-group">
             <div class="menu-item">
               <img class="menu-item-image" src="https://img.freepik.com/free-photo/delicious-milkshake_144627-27510.jpg?w=360" alt="Strawberry milkshake">
               <div class="menu-item-text">
-                <div class="menu-item-heading">
+                <h3 class="menu-item-heading">
                   <span class="menu-item-name">Strawberry Milkshake</span>
                   <span class="menu-item-price">Rp.15.000</span>
-                </div>
+                </h3>
                 <p class="menu-item-description">
                 cocok buat kamu yang suka manis
                 </p>
+                <div class ="button-jumlah">
+                  <button class= "btn btn-primary" id= "tambah"> Tambah </button>
+                  <button class= "btn btn-success" id= "kurang"> Kurangi </button>
+                  <div class="output-jumlah">
+                    Jumlah : <span class= "bg-success text-white font-weight-bold p-2" id= "hasil"> 0</span>
+                  </div>
+                </div>
               </div>
             </div>
-          </div> -->
+          </div>
         </div>
       </div>
-<script src="script.js"></script>
+      
+      <script src="script.js"></script>
+    </body>
 
-</body>
 </html>

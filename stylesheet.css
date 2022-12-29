@@ -1,8 +1,36 @@
+.hidden {
+  display: none;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 1.5em;
   }
+  
+  /* Menu Categories -- Update for Day 4 */
+  .categories-filter {
+    font-family: "Inter", sans-serif;
+  }
+
+  .categories-filter ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  .categories-filter ul li {
+      margin: 10px;
+      padding: 5px 10px;
+      font-size: 1.5rem;
+      border-radius: 5px;
+      color: black
+  }
+  .categories-filter ul li:hover{
+      background-color: gold;
+      color: white;
+  }
+  /* End Menu Categories */
   
   .menu {
     font-family: "Inter", sans-serif;
@@ -24,6 +52,8 @@
   
   .menu-item {
     display: flex;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
   }
   
   .menu-item-image {
@@ -52,6 +82,10 @@
     line-height: 1.6;
   }
   
+  .fillthis {
+    display: none;
+  }
+
   @media screen and (min-width: 992px) {
     .menu {
       font-size: 16px;
